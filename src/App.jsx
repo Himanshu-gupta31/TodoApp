@@ -43,7 +43,7 @@ function App() {
                         {/*Loop and Add TodoItem here */}
                         {todos.map((todo)=>(
                           <div className='w-full' key={todo.id}>
-                            <TodoItem todo={todo}/> //doubt//
+                            <TodoItem todo={todo}/> 
                             </div>
                         ))}
                     </div>
